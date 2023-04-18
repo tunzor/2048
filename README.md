@@ -31,4 +31,4 @@ CMD ["nginx", "-g", "daemon off;"]
 
 3.) Tag the Docker Image using `docker tag 2048 ghcr.io/tunzor/hashi-2048:1.0.0`
 
-4.) Push the Docker Image to [GHCR](https://docs.github.com/en/packages/working-with-a-github-packages-registry/working-with-the-docker-registry) using `docker push ghcr.io/tunzor/hashi-2048:0.1.0`
+4.) Push the Docker Image to [GHCR](https://docs.github.com/en/packages/working-with-a-github-packages-registry/working-with-the-docker-registry) using `docker push ghcr.io/tunzor/hashi-2048:1.0.0`
