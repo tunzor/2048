@@ -9,7 +9,7 @@ Playable [here](https://tunzor.ca/hashi-2048)
 
 ## Docker Image
 
-A Docker Image of 2048 can be built with the following `Dockerfil`:
+A Docker Image of 2048 can be built with the following `Dockerfile`:
 
 ```dockerfile
 FROM alpine:latest
