@@ -12,17 +12,13 @@ Playable [here](https://tunzor.ca/hashi-2048)
 A Docker Image of 2048 can be built with the following `Dockerfile`:
 
 ```dockerfile
-FROM alpine:latest
+FROM nginx:latest
 
-MAINTAINER Anthony Russo <github.com/tunzor>
-
-RUN apk --update add nginx
-
-COPY ./2048 /usr/share/nginx/html
+COPY . /usr/share/nginx/html
 
 EXPOSE 80
 
-CMD ["nginx", "-g", "daemon off;"]  
+CMD ["nginx", "-g", "daemon off;"]
 ```
 
 1.) Create a `Dockerfile` in the directory _above_ the clone of this repository.
